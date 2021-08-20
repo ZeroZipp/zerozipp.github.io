@@ -1,3 +1,3 @@
 function size(size) {
-    window.location.href = './'+size+'.html';
+    window.location.href = './'+size;
 }
