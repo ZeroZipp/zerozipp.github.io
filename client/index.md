@@ -4,7 +4,7 @@ You can find the github release page <a class="link" href="https://github.com/Ze
 You are using the "Vertex-Client" on you own risk!<br>
 "Minecraft" © Copyright by Mojang AB.<br>
 Modified by ZeroZipp 2021 all rights reserved.<br>
-<table style="top: 150px; width: 500px" class="downloads">
+<table style="top: 180px; width: 500px" class="downloads">
   <tr>
     <th class="list">Name:</th>
     <th class="list">Version:</th>
