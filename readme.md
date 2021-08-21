@@ -1,3 +1,3 @@
 # zerozipp.github.io
-This is our github site, do not steal.<br>
+This is our GitHub page, do not steal.<br>
 Copyright ZeroZipp all rights reserved.
