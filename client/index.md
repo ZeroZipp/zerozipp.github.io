@@ -12,6 +12,6 @@ Modified by ZeroZipp 2021 all rights reserved.<br>
   <tr>
     <th class="list">Vertex-Client-1.16.5.zip</th>
     <th class="list">0.0.1</th>
-    <th class="list"><a href="./client.html" class="a">Release</a></th>
+    <th class="list"><a href="https://github.com/ZeroZipp/Vertex-Client/releases/download/0.0.1/Vertex-Client-1.16.5.zip" class="a">Release</a></th>
   </tr>
 </table>
