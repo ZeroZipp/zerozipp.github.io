@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-<img style="position: absolute; top: 18px; height: 150px" src="files/image.png">
+<img src="files/image.png">
 <div style="position: absolute; left: 320px">
    <h3>Active project: MC-Exploit v1.16.5</h3>
    <a>The MC-Exploit is a Minecraft java edition exploit for 1.16.5<br>
