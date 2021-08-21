@@ -1,2 +1,2 @@
 # Active project
-<img src="files/logo.png">
+<img src="files/image.png">
