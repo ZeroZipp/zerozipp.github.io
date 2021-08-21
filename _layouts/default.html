@@ -1,3 +1,8 @@
+<script>
+   function page(s) {
+      widow.location.href='https://zerozipp.github.io/'+s;
+   }
+</script>
 <header class="page-header" role="banner" style="font-family: sans-serif; margin: 0px">
    <title>ZeroZipp</title>
    <style>
@@ -17,11 +22,11 @@
       }
    </style>
    <div id="topbar" style="position: fixed; top: 0px; left: 0px; height: 50px; width: 100%; background: #111111; padding: 0px">
-      <img id="logo" onclick="widow.location.href='https://zerozipp.github.io'" src="logo.png" style="margin-left: 5px; height: 50px; cursor: pointer">
+      <img id="logo" onclick="page('')" src="logo.png" style="margin-left: 5px; height: 50px; cursor: pointer">
       <div id="size" style="position: fixed; top: 16px; left: 210px">
-         <a class="btn" onclick="widow.location.href='https://zerozipp.github.io/index'">Home</a>
-         <a class="btn" onclick="widow.location.href='https://zerozipp.github.io/client'">Client</a>
-         <a class="btn" onclick="widow.location.href='https://zerozipp.github.io/about'">About</a>
+         <a class="btn" onclick="page('')">Home</a>
+         <a class="btn" onclick="page('client')">Client</a>
+         <a class="btn" onclick="page('about')">About</a>
       </div>
    </div>
 </header>
