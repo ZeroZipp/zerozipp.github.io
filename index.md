@@ -14,6 +14,6 @@ Modified by <b>ZeroZipp</b> 2021 do not steal.<br>
     <td>1.16.5-Bypackt.zip</td>
     <td>0.0.2</td>
     <td>1.16.5</td>
-    <td><a href="https://zerozipp.github.io/downloads/1.16.5-Bypackt.zip">Link</a></td>
+    <td><a href="https://zerozipp.github.io/downloads/Bypackt-0.0.2.zip">Link</a></td>
   </tr>
 </table>
