@@ -52,8 +52,8 @@ h2 {
     color: #4b4b4b;
 }
 #main {
-    width: 100%;
-    height: calc(100% - 120px);
+    width: calc(100% - 20px);
+    height: calc(100% - 100px);
     text-align: left;
     margin-top: 100px;
     color: #4b4b4b;
@@ -66,12 +66,12 @@ h1 {
     margin: 0px;
 }
 .box {
-    background: #d1d1d1;
-    width: 250;
-    padding: 2px;
+    background: #ededed;
+    width: 550px;
+    padding: 8px;
     border: solid;
-    border-color: #b8b8b8;
+    border-color: #e1e1e1;
     border-width: 1px;
-    box-shadow: 0px 0px 5px #b8b8b8;
+    box-shadow: 0px 0px 5px #efefef;
     border-radius: 5px;
 }
