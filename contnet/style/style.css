@@ -28,6 +28,7 @@ h2 {
     height: 42px;
     background: #d1d1d1;
     border: none;
+    font-size: 15px;
 }
 .button:hover {
     height: 40px;
