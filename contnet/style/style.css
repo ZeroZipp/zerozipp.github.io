@@ -53,13 +53,15 @@ h2 {
 }
 #main {
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100% - 120px);
     text-align: left;
     margin-top: 100px;
     color: #4b4b4b;
     margin-left: 20px;
 }
 h1 {
+    padding-left: 0px;
+    padding-right: 0px;
     font-size: 100px;
     margin: 0px;
 }
