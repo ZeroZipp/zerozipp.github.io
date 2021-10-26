@@ -65,6 +65,21 @@ h1 {
     font-size: 100px;
     margin: 0px;
 }
+.title {
+    margin: -9px;
+    background: #dddddd;
+    width: 550px;
+    padding: 8px;
+    padding-bottom: 5px;
+    border: solid;
+    border-color: #c9c9c9;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px #efefef;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 8px;
+}
 .box {
     background: #ededed;
     width: 550px;
