@@ -90,3 +90,15 @@ h1 {
     box-shadow: 0px 0px 5px #efefef;
     border-radius: 5px;
 }
+.download {
+    margin-top: 8px;
+    background: #1fe370;
+    width: 550px;
+    padding: 8px;
+    border: solid;
+    border-color: #00c352;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px #85e5ad;
+    border-radius: 5px;
+    cursor: pointer;
+}
