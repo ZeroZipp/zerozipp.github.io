@@ -3,7 +3,7 @@ body {
     text-align: center;
     width: 100%;
     height: 100vh;
-    background: url('/contnet/img/Minecraft.jpg');
+    background: url('../img/Minecraft.jpg');
     background-position: center;
     background-size: cover;
     background-position: center;
