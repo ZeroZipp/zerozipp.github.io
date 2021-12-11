@@ -19,7 +19,7 @@ h1 {
     max-width: 100%;
     color: rgb(255, 255, 255);
     font-size: 100px;
-    text-shadow: 0px 3px 3px rgb(207, 207, 207);
+    text-shadow: 0px 2px 3px rgb(207, 207, 207);
 }
 button {
     font-family: Helvetica, sans-serif;
