@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0px;
+    float: left;
+    margin-right: 15px;
+}
+#topbar {
+    font-family: sans-serif;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background: lightgray;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: solid 1px #aaaaaa;
+    box-shadow: 0px 0px 5px #aaaaaa;
+    height: 40px;
+}
+.button {
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    float: left;
+    background: lightgray;
+    height: 100%;
+}
+.button:hover {
+    color: #464646;
+}
