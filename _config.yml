@@ -6,3 +6,7 @@ downloads:
   zip: false
   apk_url: null
   zip_url: null
+liks:
+  home: /
+  mods: /mods
+  bypackt: /bypackt
