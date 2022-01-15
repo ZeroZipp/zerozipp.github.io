@@ -1,11 +1,6 @@
 theme: jekyll-theme-leap-day
 title: ZeroZipp
 description: Our github page
-downloads:
-  apk: false
-  zip: false
-  apk_url: null
-  zip_url: null
 links:
   home: /
   mods: /mods
