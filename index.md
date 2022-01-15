@@ -1,2 +1,1 @@
-#404
-Page not found
+<h1>Bypackt - MC</h1>
