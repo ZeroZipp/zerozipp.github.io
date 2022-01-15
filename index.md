@@ -1,7 +1,7 @@
 downloads:
-  apk: false
+  apk: true
   zip: false
-  apk_url: null
+  apk_url: ff.apk
   zip_url: null
 <h1>Bypackt - MC</h1>
 "Bypackt" is a minecraft java edition hacked client<br>
