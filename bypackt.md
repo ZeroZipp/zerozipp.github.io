@@ -1,5 +1,5 @@
 ---
-description: All our mods
+description: Bypackt client
 downloads:
   apk: false
   zip: true
