@@ -1,6 +1,7 @@
 ---
 description: All our mods
 downloads:
+  active: true
   apk: true
   zip: false
   apk_url: /downlads/icescream6.apk
