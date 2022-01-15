@@ -2,7 +2,7 @@ theme: jekyll-theme-leap-day
 title: ZeroZipp
 description: Our github page
 downloads:
-  apk: true
-  zip: true
-  apk_url: /ff.apk
-  zip_url: /ff.zip
+  apk: false
+  zip: false
+  apk_url: null
+  zip_url: null
