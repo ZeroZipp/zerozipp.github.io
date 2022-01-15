@@ -1,6 +1,7 @@
 ---
 description: Bypackt client
 downloads:
+  active: true
   apk: false
   zip: true
   apk_url: null
