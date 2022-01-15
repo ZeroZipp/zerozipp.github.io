@@ -12,8 +12,10 @@ h1 {
 #topbar {
     font-family: sans-serif;
     position: fixed;
-    margin: 0;
-    padding: 0;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
     background: lightgray;
     width: 100%;
     padding: 5px;
@@ -22,6 +24,10 @@ h1 {
     border-bottom: solid 1px #aaaaaa;
     box-shadow: 0px 0px 5px #aaaaaa;
     height: 40px;
+}
+#body{
+    margin: 8px;
+    margin-top: 60px;
 }
 .button {
     font-family: sans-serif;
@@ -35,4 +41,46 @@ h1 {
 }
 .button:hover {
     color: #464646;
+}
+.new {
+    font-family: sans-serif;
+    padding: 5px;
+    background: #e2e2e2;
+    width: 715px;
+    padding: 5px;
+    padding-left: 10px;
+    border: solid 1px #d4d4d4;
+    box-shadow: 0px 0px 5px #d4d4d4;
+    border-radius: 3px;
+    height: 200px;
+}
+h2 {
+    margin: 0px;
+    color: #3a3a3a;
+}
+a {
+    color: green;
+}
+.info {
+    float: left;
+    background: black;
+    margin-right: 8px;
+}
+.left {
+    float: left;
+}
+.download {
+    font-family: sans-serif;
+    padding: 5px;
+    background: rgb(32, 151, 72);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px rgb(25, 122, 57);
+    box-shadow: 0px 0px 5px rgb(25, 122, 57);
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
 }
