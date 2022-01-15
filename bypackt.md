@@ -1,4 +1,5 @@
 ---
+title: ZeroZipp
 description: Bypackt client
 downloads:
   active: true
