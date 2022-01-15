@@ -1,5 +1,5 @@
 ---
-layout: default
+description: All our mods
 downloads:
   apk: true
   zip: false
