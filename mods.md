@@ -1,2 +1,7 @@
-<h1>All our mods</h1>
-"Ice Scream 6" ModMenu v1.0.2 <a href="/mod/icescream6">here</a>
+---
+description: All our mods
+---
+<h2>Ice Scream 6 - MOD</h2>
+We made a modmenu for "Ice Scream 6"<br>
+You can download it right <a href="/mod/icescream6">here</a> or from google play <a href="https://play.google.com/store/apps/details?id=com.keplerians.icescream6">here<a><br>
+Or watch <a href="https://www.youtube.com/watch?v=Cql_pBTxrVI">this</a> video<br>
