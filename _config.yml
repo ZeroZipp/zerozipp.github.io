@@ -3,6 +3,6 @@ title: ZeroZipp
 description: Our github page
 downloads:
   apk: true
-  zip: false
+  zip: true
   apk_url: /ff.apk
   zip_url: /ff.zip
