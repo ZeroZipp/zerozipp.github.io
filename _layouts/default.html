@@ -20,15 +20,15 @@
         <a href="{{ site.links.home }}" class="button"><strong>Home</strong></a>
         <a href="{{ site.links.mods }}" class="button"><strong>Mods</strong></a>
         <a href="{{ site.links.bypackt }}" class="button"><strong>Bypackt</strong></a>
-        {% if page.downloads.apk | page.downloads.zip %}
+        {% if site.downloads.apk | site.downloads.zip %}
           <div class="downloads">
             <span>Downloads:</span>
             <ul>
-              {% if page.downloads.apk %}
-                <li><a href="{{ page.downloads.apk_url }}" class="button">APK</a></li>
+              {% if site.downloads.apk %}
+                <li><a href="{{ site.downloads.apk_url }}" class="button">APK</a></li>
               {% endif %}
-              {% if page.downloads.zip %}
-                <li><a href="{{ page.downloads.zip_url }}" class="button">ZIP</a></li>
+              {% if site.downloads.zip %}
+                <li><a href="{{ site.downloads.zip_url }}" class="button">ZIP</a></li>
               {% endif %}
             </ul>
           </div>
