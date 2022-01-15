@@ -2,3 +2,5 @@ theme: jekyll-theme-leap-day
 title: ZeroZipp
 description: Our github page
 show_downloads: true
+github:
+  is_project_page: false
