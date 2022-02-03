@@ -1,5 +1,5 @@
 <div class="topmessage" onclick="link('/mods/icescream6')">
-    <h1 class="h4">Ice Scream 6 - ModMenu</h1>
+    <h1 class="h3">Ice Scream 6 - ModMenu</h1>
     <r>We made a Ice Scream 6 ModMenu</r>
 </div>
 <div class="message" onclick="link('/mods/granny')">
