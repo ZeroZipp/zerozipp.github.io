@@ -1,5 +1,5 @@
 <div class="topmessage">
-    <h1 class="h3">Bypackt v1.3 - MC</h1>
+    <h1 class="h3">Bypackt v1.2.3 - MC</h1>
     <r>Bypackt is a hacked client for Minecraft</r>
 </div>
 <div class="message">
