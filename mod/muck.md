@@ -4,5 +4,5 @@
 <div class="message2">
     <h1 class="h4">About "Muck"</h1>
     <r>Muck is a survival game by "Dani".</r>
-    <button class="download" onclick="link('/download/muck/Assembly-CSharp.dll')">Download</button>
+    <button class="download" onclick="link('https://github.com/ZeroZipp/zerozipp.github.io/raw/main/download/muck/Assembly-CSharp.dll')">Download</button>
 </div>
