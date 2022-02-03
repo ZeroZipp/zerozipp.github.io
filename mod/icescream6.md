@@ -1,8 +1,8 @@
 <div class="topmessage2">
-    <h1 class="h3">Bypackt v1.2.3 - MC</h1>
+    <h1 class="h3">Ice Scream 6 - ModMenu</h1>
 </div>
 <div class="message2">
-    <h1 class="h4">About "Bypackt"</h1>
-    <r>Bypackt is a Minecraft java hacked client.</r>
-    <button class="download" onclick="link('https://github.com/ZeroZipp/Bypackt/releases/latest/download/1.12.2-Bypackt.zip')">Download</button>
+    <h1 class="h4">About "Ice Scream 6"</h1>
+    <r>Ice Scream 6 is a "Horror Game".</r>
+    <button class="download" onclick="link('/download/icescream6/[ZeroZipp]-IceScream6.apk')">Download</button>
 </div>
