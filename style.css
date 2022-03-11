@@ -24,7 +24,7 @@ body {
 
 .buttons {
     position: fixed;
-    top: calc(45% + 100px);
+    top: calc(46% + 100px);
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
