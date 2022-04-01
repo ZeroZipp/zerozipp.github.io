@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 body {
@@ -15,15 +15,88 @@ body {
 }
 
 #banner {
-    position: fixed;
+    position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100%;
 }
 
-.buttons {
+#titlebar {
+    width: 100%;
     position: fixed;
+    height: 50px;
+    background: white;
+    top: 0;
+    left: 0;
+    border: none;
+    border-bottom: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a {
+    color: blue;
+}
+
+#title {
+    position: fixed;
+    float: left;
+    height: 100%;
+    top: 3px;
+    left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background: white;
+    padding: 5px;
+}
+
+.title_icon {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: black;
+    height: 100%;
+    gap: 10px;
+    float: right;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+.content {
+    width: calc(100% - 100px);
+    position: absolute;
+    background: white;
+    top: calc(100% - 90px);
+    left: 0;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 80px;
+}
+
+.buttons {
+    position: absolute;
     top: calc(45% + 100px);
     left: 50%;
     transform: translate(-50%, -50%);
@@ -75,7 +148,7 @@ body {
 }
 
 .github:hover {
-        background: #3f3f3f;
+    background: #3f3f3f;
 }
 
 .github:active {

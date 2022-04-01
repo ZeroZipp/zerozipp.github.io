@@ -1,2 +1,2 @@
 # Info
-Design by: @PacketDeveloper and @ZeroZipp
+© 2021 - 2022 ZeroZipp - All Rights Reserved.
