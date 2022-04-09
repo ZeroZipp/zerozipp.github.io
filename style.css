@@ -7,165 +7,139 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: url(assets/images/background.png);
+    background-color: rgb(240, 240, 240);
     background-position: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#banner {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-}
-
-#titlebar {
-    width: 100%;
-    position: fixed;
-    height: 50px;
-    background: white;
-    top: 0;
-    left: 0;
-    border: none;
-    border-bottom: solid;
-    border-color: lightgray;
-    border-width: 1px;
-}
-
-h1 {
-    font-weight: normal;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
 a {
-    color: blue;
+    text-decoration: none;
+    color: black;
 }
 
-#title {
+#topbar {
     position: fixed;
-    float: left;
-    height: 100%;
-    top: 3px;
-    left: 10px;
-    font-size: 30px;
-    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
 }
 
-.copyright {
+#bottombar {
     position: fixed;
+    width: 100%;
     bottom: 0px;
     left: 0px;
-    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
+    font-size: 13px;
     text-align: center;
-    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#topbar button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all ease 0.3s;
+    font-size: 13px;
+}
+
+#topbar button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+#right {
+    float: right;
+}
+
+#icon {
+    height: 30px;
+    width: 30px;
+    float: left;
     padding: 5px;
 }
 
-.title_icon {
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    padding: 0 24px;
-    color: black;
-    height: 100%;
-    gap: 10px;
-    float: right;
-    font-size: 1.6em;
-    cursor: pointer;
-}
-
-.content {
-    width: calc(100% - 100px);
-    position: absolute;
-    background: white;
-    top: calc(100% - 90px);
-    left: 0;
-    border: none;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-top: solid;
-    border-color: lightgray;
+#content {
+    background-color: rgb(220, 220, 220);
+    padding-top: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: solid;
     border-width: 1px;
-    padding: 50px;
-    padding-top: 5px;
-    padding-bottom: 80px;
+    border-color: rgb(180, 180, 180);
+    height: 315px;
 }
 
-.buttons {
+.screenshot {
     position: absolute;
-    top: calc(45% + 100px);
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
-
-.download {
-    display: inline-flex;
-    height: 50px;
-    padding: 0;
-    background: #009e52;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    cursor: pointer;
+    top: 45px;
+    left: calc(50% - 250px);
+    width: 500px;
     text-align: center;
+    filter: blur(3px);
 }
 
-.download:hover {
-    background: #00994C;
-}
-
-.download:active {
-    background: #009148;
-}
-
-.github {
-    display: inline-flex;
-    height: 50px;
-    padding: 0;
-    background: #414141;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    cursor: pointer;
+#info {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 250px);
+    width: 500px;
     text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(170, 170, 170);
 }
 
-.github:hover {
-    background: #3f3f3f;
+#download {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all ease 0.3s;
+    font-size: 13px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    margin-top: 8px;
+    position: absolute;
+    left: calc(50% - 90px);
 }
 
-.github:active {
-    background: #3a3a3a;
+#download:hover {
+    background-color: rgb(230, 230, 230);
 }
 
-.button_text,
-.button_icon {
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    padding: 0 24px;
-    color: #fff;
-    height: 100%;
+#download:disabled {
+    color: rgb(190, 190, 190);
+    cursor: not-allowed;
 }
 
-.button_icon {
-    font-size: 1.5em;
-    background: rgba(0, 0, 0, 0.08)
+.icon {
+    height: 28px;
+    width: 28px;
+    padding: 0px;
+    padding-right: 1px;
+    filter: brightness(1.5);
 }
